@@ -30,6 +30,22 @@ Just for learning php
 > Useful functions
 > - strlen
 
+#### heredoc
+```php
+// variables will be expanded like Double Quoted string
+$str = <<<"EOT"
+hello $name!
+EOT;
+```
+
+#### nowdoc
+```php
+// variables won't be expanded like Single Quoted string
+$str = <<<'EOT'
+hello world!
+EOT;
+```
+
 
 ## array
 
