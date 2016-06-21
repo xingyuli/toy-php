@@ -16,7 +16,7 @@ var_dump($same_as_a1);
 /*
  * If an object is converted to an array, the result is an array whose elements
  * are the object's properties. The keys are the member variable names, with a
- * few exceptions: integer properties are unaccessible; private variables have
+ * few exceptions: integer properties are inaccessible; private variables have
  * the class name prepended to the variable name; protected variables have a
  * '*' prepended to the variable. These prepended values have null bytes on
  * either side.
